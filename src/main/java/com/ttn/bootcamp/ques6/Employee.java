@@ -9,7 +9,7 @@ public class Employee {
         System.out.println("Default Constructor");
     }
 
-    //    Parameterized constructor
+//  Constructor injection
     public Employee(int id, String name) {
         this.id = id;
         this.name = name;

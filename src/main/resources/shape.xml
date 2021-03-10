@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id="Polygon" class="com.ttn.bootcamp.ques2.Polygon">
+        <property name="iPolygon" ref="Square"/>
+    </bean>
+    <bean id="Circle" class="com.ttn.bootcamp.ques2.Circle"/>
+    <bean id="Square" class="com.ttn.bootcamp.ques2.Square"/>
+</beans>
