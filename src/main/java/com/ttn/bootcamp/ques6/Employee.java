@@ -4,12 +4,11 @@ public class Employee {
     private int id;
     private String name;
 
-    //    default constructor
     public Employee() {
         System.out.println("Default Constructor");
     }
 
-//  Constructor injection
+    //  Constructor injection
     public Employee(int id, String name) {
         this.id = id;
         this.name = name;
